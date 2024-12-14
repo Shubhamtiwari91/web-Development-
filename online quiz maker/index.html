@@ -1,1 +1,26 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Quiz</title>
+  <link rel="stylesheet" href="qu.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <div id="question-container">
+      <h2 id="question">Question will appear here</h2>
+      <div id="choices">
+        
+      </div>
+    </div>
+    <div id="timer">Time Left: <span id="time">30</span>s</div>
+    <button id="submit-btn" onclick="submitQuiz()">Submit</button>
+    <div id="score" style="display:none;">
+      <h2> Thanak  you Quiz close</h2>
+      <h3>Your Score: <span id="final-score">0</span></h3>
+    </div>
+  </div>
+  <script src="qui.js"></script>
+</body>
+</html>
